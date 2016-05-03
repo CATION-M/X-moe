@@ -1,0 +1,6 @@
+c:\CriwareXtxDecoder\CriwareXtxDecoder\bin\Release\CriwareXtxDecoder.exe.config
+c:\CriwareXtxDecoder\CriwareXtxDecoder\bin\Release\CriwareXtxDecoder.exe
+c:\CriwareXtxDecoder\CriwareXtxDecoder\bin\Release\CriwareXtxDecoder.pdb
+c:\CriwareXtxDecoder\CriwareXtxDecoder\obj\Release\CriwareXtxDecoder.exe
+c:\CriwareXtxDecoder\CriwareXtxDecoder\obj\Release\CriwareXtxDecoder.pdb
+c:\CriwareXtxDecoder\CriwareXtxDecoder\obj\Release\CriwareXtxDecoder.csprojResolveAssemblyReference.cache

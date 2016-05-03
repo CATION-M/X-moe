@@ -1,0 +1,1 @@
+c:\CriwareXtxDecoder\CriwareXtxDecoder\bin\Debug\CriwareXtxDecoder.exe.config
