@@ -162,7 +162,7 @@ int wmain(int argc, WCHAR* argv[])
 	}
 	else
 	{
-		printf("Cannot Found Key\n");
+		printf("Cannot Find Key\n");
 	}
 	getchar();
 	return 0;
