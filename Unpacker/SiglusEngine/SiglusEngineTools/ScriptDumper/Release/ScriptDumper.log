@@ -1,5 +1,15 @@
-﻿生成启动时间为 2015-11-25 9:24:46 AM。
+﻿生成启动时间为 2016/6/30 16:29:23。
+     1>项目“E:\GitPool\X-moe\Unpacker\SiglusEngine\SiglusEngineTools\ScriptDumper\ScriptDumper.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ScriptDumper.cpp
+         ScriptDumper.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\GitPool\X-moe\Unpacker\SiglusEngine\SiglusEngineTools\Release\ScriptDumper.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\GitPool\X-moe\Unpacker\SiglusEngine\SiglusEngineTools\Release\ScriptDumper.pdb" /SUBSYSTEM:CONSOLE,"5.01" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\GitPool\X-moe\Unpacker\SiglusEngine\SiglusEngineTools\Release\ScriptDumper.lib" /MACHINE:X86 /SAFESEH Release\ScriptDumper.obj
+         正在生成代码
+         已完成代码的生成
+         ScriptDumper.vcxproj -> E:\GitPool\X-moe\Unpacker\SiglusEngine\SiglusEngineTools\Release\ScriptDumper.exe
+     1>已完成生成项目“E:\GitPool\X-moe\Unpacker\SiglusEngine\SiglusEngineTools\ScriptDumper\ScriptDumper.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:00.03
+已用时间 00:00:00.50
