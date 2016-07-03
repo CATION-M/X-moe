@@ -1,0 +1,50 @@
+﻿生成启动时间为 2015/5/14 21:24:43。
+     1>项目“E:\AZSystem_ch\AZSystem_ch\AZSystem_ch.vcxproj”在节点 2 上(Build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\AZSystem_ch.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AZSystem_ch.cpp
+         AZSystem_ch.cpp
+     1>e:\azsystem_ch\azsystem_ch\SFMT-params19937.h(4): warning C4005: “POS1”: 宏重定义
+                 e:\azsystem_ch\azsystem_ch\SFMT-params132049.h(4) : 参见“POS1”的前一个定义
+     1>e:\azsystem_ch\azsystem_ch\SFMT-params19937.h(5): warning C4005: “SL1”: 宏重定义
+                 e:\azsystem_ch\azsystem_ch\SFMT-params132049.h(5) : 参见“SL1”的前一个定义
+     1>e:\azsystem_ch\azsystem_ch\SFMT-params19937.h(7): warning C4005: “SR1”: 宏重定义
+                 e:\azsystem_ch\azsystem_ch\SFMT-params132049.h(7) : 参见“SR1”的前一个定义
+     1>e:\azsystem_ch\azsystem_ch\SFMT-params19937.h(9): warning C4005: “MSK1”: 宏重定义
+                 e:\azsystem_ch\azsystem_ch\SFMT-params132049.h(9) : 参见“MSK1”的前一个定义
+     1>e:\azsystem_ch\azsystem_ch\SFMT-params19937.h(10): warning C4005: “MSK2”: 宏重定义
+                 e:\azsystem_ch\azsystem_ch\SFMT-params132049.h(10) : 参见“MSK2”的前一个定义
+     1>e:\azsystem_ch\azsystem_ch\SFMT-params19937.h(11): warning C4005: “MSK3”: 宏重定义
+                 e:\azsystem_ch\azsystem_ch\SFMT-params132049.h(11) : 参见“MSK3”的前一个定义
+     1>e:\azsystem_ch\azsystem_ch\SFMT-params19937.h(12): warning C4005: “MSK4”: 宏重定义
+                 e:\azsystem_ch\azsystem_ch\SFMT-params132049.h(12) : 参见“MSK4”的前一个定义
+     1>e:\azsystem_ch\azsystem_ch\SFMT-params19937.h(15): warning C4005: “PARITY3”: 宏重定义
+                 e:\azsystem_ch\azsystem_ch\SFMT-params132049.h(15) : 参见“PARITY3”的前一个定义
+     1>e:\azsystem_ch\azsystem_ch\SFMT-params19937.h(16): warning C4005: “PARITY4”: 宏重定义
+                 e:\azsystem_ch\azsystem_ch\SFMT-params132049.h(16) : 参见“PARITY4”的前一个定义
+     1>e:\azsystem_ch\azsystem_ch\SFMT-params19937.h(44): warning C4005: “IDSTR”: 宏重定义
+                 e:\azsystem_ch\azsystem_ch\SFMT-params132049.h(44) : 参见“IDSTR”的前一个定义
+     1>AZSystem_ch.cpp(26): warning C4091: “typedef ”: 没有声明变量时忽略“ASBNew”的左侧
+     1>AZSystem_ch.cpp(229): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>AZSystem_ch.cpp(249): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\AZSystem_ch\Release\AZSystem_ch.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\AZSystem_ch\Release\AZSystem_ch.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\AZSystem_ch\Release\AZSystem_ch.lib" /MACHINE:X86 /SAFESEH Release\AZSystem_ch.obj
+         Release\mt19937ar.obj
+         "Release\SFMT-132049.obj"
+         "Release\SFMT-19937.obj"
+         Release\stdafx.obj
+     1>LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+         正在生成代码
+         已完成代码的生成
+         AZSystem_ch.vcxproj -> E:\AZSystem_ch\Release\AZSystem_ch.exe
+       FinalizeBuildStatus:
+         正在删除文件“Release\AZSystem_ch.tlog\unsuccessfulbuild”。
+         正在对“Release\AZSystem_ch.tlog\AZSystem_ch.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\AZSystem_ch\AZSystem_ch\AZSystem_ch.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.32
