@@ -1,0 +1,68 @@
+﻿生成启动时间为 2015/3/22 7:37:11。
+     1>项目“N:\krkrz-master\krkrz-master\src\plugins\win32\libpsd\libpsd\libpsd.vcxproj”在节点 2 上(Build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“N:\krkrz-master\krkrz-master\src\plugins\win32\libpsd\Release\”。
+         正在创建目录“Release\libpsd.tlog\”。
+       InitializeBuildStatus:
+         正在创建“Release\libpsd.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Iinclude /I..\..\zlib /I..\..\libjpeg /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt src\adjustment.c src\bevel_emboss.c src\bitmap.c src\blend.c src\boundary.c src\brightness_contrast.c src\channel_image.c src\channel_mixer.c src\color.c src\color_balance.c src\color_mode.c src\color_overlay.c src\curves.c src\descriptor.c src\drop_shadow.c src\effects.c src\file_header.c src\fixed.c src\gaussian_blur.c src\gradient_blend.c src\gradient_fill.c src\gradient_map.c src\gradient_overlay.c src\hue_saturation.c src\image_data.c src\image_resource.c src\inner_glow.c src\inner_shadow.c src\invert.c src\layer_mask.c src\levels.c src\outer_glow.c src\path.c src\pattern.c src\pattern_fill.c src\pattern_overlay.c src\photo_filter.c src\posterize.c src\psd.c src\psd_zip.c src\rect.c src\satin.c src\selective_color.c src\solid_color.c src\stream.c src\string_resource.c src\stroke.c src\threshold.c src\thumbnail.c src\type_tool.c
+         adjustment.c
+         bevel_emboss.c
+         bitmap.c
+         blend.c
+         boundary.c
+         brightness_contrast.c
+         channel_image.c
+         channel_mixer.c
+         color.c
+         color_balance.c
+         color_mode.c
+         color_overlay.c
+         curves.c
+         descriptor.c
+         drop_shadow.c
+         effects.c
+         file_header.c
+         fixed.c
+         gaussian_blur.c
+         gradient_blend.c
+         正在编译...
+         gradient_fill.c
+         gradient_map.c
+         gradient_overlay.c
+         hue_saturation.c
+         image_data.c
+         image_resource.c
+         inner_glow.c
+         inner_shadow.c
+         invert.c
+         layer_mask.c
+         levels.c
+         outer_glow.c
+         path.c
+         pattern.c
+         pattern_fill.c
+         pattern_overlay.c
+         photo_filter.c
+         posterize.c
+         psd.c
+         psd_zip.c
+     1>src\psd_zip.c(30): fatal error C1083: 无法打开包括文件: “zlib.h”: No such file or directory
+         正在编译...
+         rect.c
+         satin.c
+         selective_color.c
+         solid_color.c
+         stream.c
+         string_resource.c
+         stroke.c
+         threshold.c
+         thumbnail.c
+     1>src\thumbnail.c(38): fatal error C1083: 无法打开包括文件: “jpeglib.h”: No such file or directory
+         type_tool.c
+     1>已完成生成项目“N:\krkrz-master\krkrz-master\src\plugins\win32\libpsd\libpsd\libpsd.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:04.17
