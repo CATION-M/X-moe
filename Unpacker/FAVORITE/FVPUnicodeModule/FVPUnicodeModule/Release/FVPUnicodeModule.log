@@ -1,0 +1,25 @@
+﻿生成启动时间为 2015/10/24 0:25:36。
+     1>项目“E:\FVPUnicodeModule\FVPUnicodeModule\FVPUnicodeModule.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D FVPUNICODEMODULE_EXPORTS /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt FVPUnicodeModule.cpp
+         FVPUnicodeModule.cpp
+     1>FVPUnicodeModule.cpp(22): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(253) : 参见“stricmp”的声明
+     1>FVPUnicodeModule.cpp(50): warning C4101: “rcWordArea”: 未引用的局部变量
+     1>FVPUnicodeModule.cpp(132): warning C4018: “<”: 有符号/无符号不匹配
+     1>FVPUnicodeModule.cpp(140): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\FVPUnicodeModule\Release\FVPUnicodeModule.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\FVPUnicodeModule\Release\FVPUnicodeModule.pdb" /SUBSYSTEM:WINDOWS,"5.01" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\FVPUnicodeModule\Release\FVPUnicodeModule.lib" /MACHINE:X86 /SAFESEH /DLL Release\dllmain.obj
+         Release\FVPUnicodeModule.obj
+         Release\GeneralFontHook.obj
+         Release\stdafx.obj
+            正在创建库 E:\FVPUnicodeModule\Release\FVPUnicodeModule.lib 和对象 E:\FVPUnicodeModule\Release\FVPUnicodeModule.exp
+         正在生成代码
+         已完成代码的生成
+         FVPUnicodeModule.vcxproj -> E:\FVPUnicodeModule\Release\FVPUnicodeModule.dll
+     1>已完成生成项目“E:\FVPUnicodeModule\FVPUnicodeModule\FVPUnicodeModule.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.00
