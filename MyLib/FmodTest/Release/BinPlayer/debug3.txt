@@ -1,0 +1,3 @@
+AudioLoad[BGM/061] @ channel[1]
+getFile Info[BGM/061, 0]
+getFile Proc[ARC = BGM, Target = 061]
