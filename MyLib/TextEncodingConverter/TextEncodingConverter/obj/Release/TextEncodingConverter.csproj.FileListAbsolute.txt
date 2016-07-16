@@ -1,0 +1,8 @@
+C:\TextEncodingConverter\TextEncodingConverter\bin\Release\TextEncodingConverter.exe.config
+C:\TextEncodingConverter\TextEncodingConverter\bin\Release\TextEncodingConverter.exe
+C:\TextEncodingConverter\TextEncodingConverter\bin\Release\TextEncodingConverter.pdb
+C:\TextEncodingConverter\TextEncodingConverter\obj\Release\TextEncodingConverter.Form1.resources
+C:\TextEncodingConverter\TextEncodingConverter\obj\Release\TextEncodingConverter.Properties.Resources.resources
+C:\TextEncodingConverter\TextEncodingConverter\obj\Release\TextEncodingConverter.csproj.GenerateResource.Cache
+C:\TextEncodingConverter\TextEncodingConverter\obj\Release\TextEncodingConverter.exe
+C:\TextEncodingConverter\TextEncodingConverter\obj\Release\TextEncodingConverter.pdb

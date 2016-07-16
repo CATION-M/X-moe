@@ -1,0 +1,1 @@
+c:\TextEncodingConverter\TextEncodingConverter\bin\Debug\TextEncodingConverter.exe.config
