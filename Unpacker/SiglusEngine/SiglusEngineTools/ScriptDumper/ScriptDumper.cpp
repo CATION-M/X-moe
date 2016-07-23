@@ -2,7 +2,9 @@
 #include "WinFile.h"
 #include "CMem.h"
 
+#include <stdio.h>
 
+#pragma pack(push, 1)
 typedef struct FileInfo
 {
 	DWORD Offset;
@@ -35,7 +37,7 @@ typedef struct SceneHeader
 	HeaderPair v15;
 	HeaderPair v16;
 }SceneHeader, *pSceneHeader;
-
+#pragma pack(pop)
 
 void StringDecoder(PWCHAR Buffer, PWCHAR OutBuffer, ULONG length, LONG key)
 {
@@ -88,8 +90,11 @@ int wmain(int argc, WCHAR* argv[])
 	Header = (SceneHeader*)FileBuffer;
 	StringIndex = (FileInfo*)&FileBuffer[Header->StringIndexInfo.Offset];
 	StringData = (wchar_t*)&FileBuffer[Header->StringDataInfo.Offset];
+	
 	for (ULONG i = 0; i<Header->StringIndexInfo.Length; i++)
 	{
+		printf("%08x\n", (size_t)&StringIndex[i] - (size_t)FileBuffer);
+		//getchar();
 		info = &StringIndex[i];
 		OldString = &StringData[info->Offset];
 		NewString = (PWCHAR)CMem::Alloc((info->Length * 2 + 2) * sizeof(WCHAR));
@@ -97,15 +102,23 @@ int wmain(int argc, WCHAR* argv[])
 		RtlZeroMemory(NewString, (info->Length * 2 + 2) * sizeof(WCHAR));
 		RtlZeroMemory(UTF8String, info->Length * 4);
 		RtlZeroMemory(Prefix, 128);
-		StringDecoder(OldString, NewString, info->Length, i);
+
+		LONG Len = info->Length;
+		printf("Length : %08x, Offset %08x\n", Len > 0 ? Len : -Len, info->Offset);
+		
+		//not a null-terminated string, we should parse the length table to make sure the real length of each string.
+		if(Len > 0)StringDecoder(OldString, NewString, Len > 0 ? Len : -Len, i);
+
+		//wprintf(L"%s\n", NewString);
 
 		WideCharToMultiByte(CP_UTF8, 0, NewString, lstrlenW(NewString), UTF8String, info->Length * 4,
 			nullptr, nullptr);
-		wsprintfA(Prefix, "[%08x]", i);
+		wsprintfA(Prefix, "[0x%08x]", i);
 		OutFile.Write((PBYTE)Prefix, lstrlenA(Prefix));
 		OutFile.Write((PBYTE)UTF8String, lstrlenA(UTF8String));
 		OutFile.Write((PBYTE)"\r\n;", 3);
-		wsprintfA(Prefix, "[%08x]", i);
+		wsprintfA(Prefix, "[0x%08x]", i);
+		OutFile.Write((PBYTE)Prefix, lstrlenA(Prefix));
 		OutFile.Write((PBYTE)"\r\n\r\n", 4);
 		CMem::Free(UTF8String);
 		CMem::Free(NewString);
