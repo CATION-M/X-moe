@@ -130,7 +130,7 @@ int wmain(int argc, WCHAR* argv[])
 	ULONG iPos = 0;
 	
 	ULONG ZeroPad = 0;
-	for (ULONG i = uncomprlen - 1; i--; i >= 0)
+	for (LONG i = uncomprlen - 1; i--; i >= 0)
 	{
 		if (uncompr[i] != 0)
 			break;
